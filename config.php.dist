@@ -1,0 +1,6 @@
+<?
+$_DB_HOST= "";
+$_DB_USER = "";
+$_DB_PASS = "";
+$_DB_DATABASE = "";
+?>

@@ -11,10 +11,10 @@ This is a simple PHP application to understand the evolution of the applications
 * PHP 5.3 or higher
 * MySQL Server
 
-##Instalation
+##Installation
 * Download the code and place it under served pages directory.
-  Linux: /var/www/html
-  Windows: Apache2/htdocs
+**  Linux: /var/www/html
+**  Windows: Apache2/htdocs
 * Open config.php.dist, fill it with your MySQL Server information and save it as config.php
 * Run the attached database.sql on your MySQL Server
 

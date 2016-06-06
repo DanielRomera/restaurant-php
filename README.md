@@ -13,8 +13,8 @@ This is a simple PHP application to understand the evolution of the applications
 
 ##Installation
 1. Download the code and place it under served pages directory.
-*  Linux: /var/www/html
-*  Windows: Apache2/htdocs
+  *  Linux: /var/www/html
+  *  Windows: Apache2/htdocs
 2. Open config.php.dist, fill it with your MySQL Server information and save it as config.php
 3. Run the attached database.sql on your MySQL Server
 

@@ -5,7 +5,7 @@ $mysqli = new mysqli($_DB_HOST, $_DB_USER, $_DB_PASS, $_DB_DATABASE);
 if ($mysqli->connect_errno) {die("Conection to the database failed!");}
 
 
-if($_POST['order'])
+if(isset($_POST['order']))
 {
   $query = $mysqli->query("update Orders set quantity=quantity+1 where id_dish=".$_POST['order']." and id_table=".$current_table);
   if(!mysqli_affected_rows($mysqli))
@@ -15,7 +15,7 @@ if($_POST['order'])
   } 
 }
 
-if($_POST['finish'])
+if(isset($_POST['finish']))
 {
   $query = $mysqli->query("delete from Orders where id_table=".$current_table);
 }
@@ -27,7 +27,6 @@ if($_POST['finish'])
 <meta charset="utf-8" />    
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link href="http://getbootstrap.com/examples/justified-nav/justified-nav.css" rel="stylesheet">
-<link href="css/main.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">

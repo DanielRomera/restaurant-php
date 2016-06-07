@@ -16,7 +16,8 @@ This is a simple PHP application to understand the evolution of the applications
   *  Linux: /var/www/html
   *  Windows: Apache2/htdocs
 2. Open config.php.dist, fill it with your MySQL Server information and save it as config.php
-3. Run the attached database.sql on your MySQL Server
+3. Run the attached restaurant.sql on your MySQL Server
+4. Delete restaurant.sql
 
 #Live DEMO
 For a live demo, check it out on: http://devdani.com/php-restaurant

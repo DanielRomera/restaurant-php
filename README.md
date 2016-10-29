@@ -20,4 +20,4 @@ This is a simple PHP application to understand the evolution of the applications
 4. Delete restaurant.sql
 
 #Live DEMO
-For a live demo, check it out on: http://devdani.com/php-restaurant
+For a live demo, check it out on: http://devdani.com/demo/php
